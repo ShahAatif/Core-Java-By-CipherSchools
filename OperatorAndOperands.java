@@ -27,9 +27,15 @@ class Operators{
 
         // Increment and Decrement Operators
         int m=5;
-        int n=m++;
-        System.out.println("M is "+m+"N is "+n);
+        int n=m++;  //assign the value Of m to n then increase value Of m wherever it was defined
+        System.out.println("M is "+m+"N is " +n);
 
+        // Think of this as:
+        // 1. P=P+1;
+        // 2. int q=p;
+        int p=5;
+        int q=++p;
+        System.out.println("P is "+p+"Q is "+q);
 
     }
 }
