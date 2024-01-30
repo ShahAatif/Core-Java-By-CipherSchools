@@ -16,6 +16,8 @@ class Instantiation{
 
         byte b4 = (byte) 256;
         float f = (float)5.5; //by default considers decimal to be double
+        // This is the sixth lecture      
+        int r=0;
         float f2 = 5.5f;
         double d = 10.5;
         char ch = 'a';
@@ -33,7 +35,7 @@ class Instantiation{
         // We will require 'A'->0, 'Z'-> 25
         char c3='e';
         int e =c3-'a';
-        System.out.println(e);
+        System.out.println("E is "+e);
 
         int z=x+y;
         //+ -> Operator
@@ -49,7 +51,7 @@ class Instantiation{
         // 2. int q=p;
         int p=5;
         int q=++p;
-        System.out.println("P is "+p+"Q is "+q);
+        System.out.println("P is this"+p+"Q is "+q);
 
     }
 }

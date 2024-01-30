@@ -12,8 +12,6 @@ class PrimitiveDT{
         System.out.println("B2 is"+b2);
 
         int i=b;
-        System.out.println("I is "+b);
-
-
+        System.out.println("I  is "+b);
     }
 }
