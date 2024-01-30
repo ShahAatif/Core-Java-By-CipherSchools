@@ -16,11 +16,11 @@ public class Lecture10 {
     }
 
     public static void main(String[] args) {
-        Lecture10 a = new Lecture10(1, "danish");
+        Lecture10 a = new Lecture10(1, "Aatif");
         System.out.println(count);
-        Lecture10 b = new Lecture10(1, "danish");
+        Lecture10 b = new Lecture10(1, "Aatif");
         System.out.println(count);
-        Lecture10 c = new Lecture10(1, "danish");
+        Lecture10 c = new Lecture10(1, "Aatif");
         System.out.println(Lecture10.count);
         Lecture10.show();
     }
